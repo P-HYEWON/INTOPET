@@ -1,0 +1,321 @@
+@charset"utf-8";
+
+/*메인컨텐츠01*/
+.mainCon01{
+    position: relative;
+    padding: 110px 0;
+}
+.con01List{
+    position: relative;
+    height: 2600px;
+    top: 10px;
+}
+
+.storyBox01{
+    margin-bottom: 320px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    padding: 40px 0;
+    text-align: center;
+    width: 500px;
+    border-radius: 5%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    background: #fff;
+}
+.storyBox01 img{}
+.storyBoxTxt01::before{
+    margin: 25px 0;
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 70px;
+    background: #000;
+}
+.storyBox01 p{
+    font-size: 15px;
+    line-height: 20px;
+}
+.storyBox01 p span{
+    display: block;
+    margin-top: 50px;
+}
+
+.storyBox02{}
+.storyBox03{}
+.moreBtn{
+    position: absolute;
+    left: 25%;
+    margin-left: -150px;
+    bottom: 0;
+    font-size: 14px;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px #333 solid;
+    border-radius: 25px;
+}
+.moreBtn a{
+    display: block;
+    width: 100%;
+}
+
+.mainTxt{
+    font-family: "Score";
+    font-weight: 300;
+    position: absolute;
+    right: 0;
+    padding-top: 160px;
+    position: absolute;
+    right: 0;
+    font-size: 22px;
+}
+.mainTxt h2{
+    padding-bottom: 40px;
+    font-size: 45px;
+}
+.mainTxt p{
+    line-height: 35px;
+}
+.mainTxt span{
+    padding-top: 7px;
+    display: block;
+    font-weight: 600;
+}
+#mainSlider{
+    position: relative;
+}
+.ball01{
+    position: absolute;
+    z-index: -100;
+    bottom: -350px;
+    right: 0px;
+}
+.ball01 img{
+}
+
+
+
+/*메인컨텐츠02*/
+.mainCon02{
+    font-family: "Score";
+    text-align: center;
+    margin-top:100px;
+    padding: 80px 0;
+    background: #f2f2f2;
+    width: 100%;
+}
+.con02{}
+.con02Wrap{
+}
+.con02Wrap h2{
+    padding-bottom:  20px;
+    font-size: 40px;
+}
+.con02Wrap>p{
+    font-weight: 300;
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+
+.con02List{
+    display: inline-block;
+}
+.con02List li{
+    text-align: center;
+    margin: 0 60px;
+    float: left;
+}
+.con02List li a{}
+.con02List li img{}
+.con02List li p{
+    font-size: 13px;
+    padding-top: 25px;
+}
+
+
+
+/*메인컨텐츠03*/
+.mainCon03{
+    margin-bottom: 200px;
+    text-align: center;
+    height: 480px;
+    background: url(../images/main/con03Img.png) no-repeat center center;
+}
+.con03Txt{}
+.con03Txt a{
+    color: #fff;
+}
+.con03Txt h2{
+    font-size: 35px;
+    padding-top: 110px;
+}
+.con03Txt p{
+    padding-top: 10px;
+    font-size: 23px;
+}
+
+.moreBtn02{
+    margin-top: 110px;
+    display: inline-block;
+    width: 230px;
+    height: 40px;
+    line-height: 40px;
+    border: #fff solid 1px;
+    border-radius: 25px;
+}
+.moreBtn02 a{
+    color: #fff;
+}
+
+
+
+/*메인컨텐츠04*/
+.mainCon04{
+    height: 900px;
+}
+.mainCon04 h2{
+    font-size: 45px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.con04List01{
+    position: relative;
+}
+.con04List01 img{
+    position: absolute;
+    left: 200px;
+    top: 70px;
+}
+
+.con04TxtBox{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -10;
+    padding-left: 280px;
+    padding-top: 80px;
+    width: 1180px;
+    height: 500px;
+    background: #f2f2f2;
+    box-sizing: border-box;
+    margin-bottom: 300px;
+}
+.con04TxtBox h3{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.con04TxtBox p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.con04TxtBox p span{
+    display: block;
+}
+.con04TxtBox h4{
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.mainCon04 .moreBtn{
+    position: absolute;
+    left: 430px;
+    bottom: 70px;
+}
+.mainCon04 .moreBtn a{
+    display: block;
+    width: 100%;
+}
+
+
+
+/*메인컨텐츠05*/
+.mainCon05{
+    margin-top: 50px;
+    height: 900px;
+}
+.mainCon05 h2{
+    text-align: center;
+    font-size: 45px;
+    padding: 50px 0;
+}
+
+.con05List01{
+    position: relative;
+}
+.con05List01 img{
+    position: absolute;
+    right: 200px;
+    top: 70px;
+}
+
+.con5TxtBox{
+    text-align: right;
+    padding-top: 80px;
+    width: 1180px;
+    height: 500px;
+    background: #f2f2f2;
+    box-sizing: border-box;
+    padding-right: 280px;
+}
+.con5TxtBox h3{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.con5TxtBox p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.con5TxtBox p span{
+    display: block;
+}
+.con5TxtBox h4{
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+
+.mainCon05 .moreBtn{
+    left: 697;
+    margin-left: 0;
+    position: absolute;
+    bottom: 70px;
+}
+.mainCon05 .moreBtn a{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

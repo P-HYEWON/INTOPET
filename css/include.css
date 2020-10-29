@@ -1,0 +1,153 @@
+@charset"utf-8";
+
+/*헤더*/
+#wrap{}
+#header{
+    font-size: 14px;
+    position: relative;
+    padding-top: 20px;
+    height: 70px;
+    line-height: 70px;
+}
+.hWrap{}
+#header h1{
+    float: left;
+}
+#header h1 a{}
+#header h1 img{}
+
+.gnb{}
+.gnb li{
+    padding-left: 150px;
+    float: left;
+}
+.gnb li a{}
+
+.util{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    height: 30px;
+    line-height: 30px;
+}
+.util li{
+    margin-left: 20px;
+    float: left
+}
+.util li a{}
+
+.login{}
+.login a{}
+
+.search{
+    padding-top: 1px;
+}
+.search a{}
+.search img{}
+
+
+/*메인슬라이더*/
+#container{}
+.mainSlider{
+    text-align: center;
+    height: 800px;
+    background: url(../images/main/mainImg.png) no-repeat center center;
+}
+.mainSlider p{
+    font-family: "Batang";
+    padding-top: 380px;
+    font-size: 50px;
+    color: #fff;
+}
+.mainSlider p span{}
+
+
+
+/*푸터*/
+#footer{
+    padding: 60px 0;
+    position: relative;
+    background: #1a201d;
+    color: #c4c3c3;
+}
+#footer h1{
+    padding-top: 20px;
+    float: left;
+    margin-right: 90px;
+}
+#footer img{}
+
+.fWrap{
+    position: relative;
+}
+.fSns{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.fSns li{
+    float: left;
+    margin-left: 15px;
+}
+.fSns li a{}
+.fSns li img{}
+
+.fInfo{
+    display: inline-block;
+    line-height: 20px;
+    font-size: 13px;
+}
+.fInfo a{
+    color: #c4c3c3;
+}
+.fInfo span{
+    font-weight: bold;
+}
+
+.fTop{}
+.fTop p{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.fBottom{
+    padding-bottom: 10px;
+}
+
+.download{}
+.download span{
+    color: #c4c3c3;
+}
+
+.apple{
+    display: inline-block;
+}
+.apple a{}
+.apple a img{}
+
+.android{
+    display: inline-block;
+}
+.android a{}
+.android a img{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
