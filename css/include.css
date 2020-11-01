@@ -1,0 +1,175 @@
+@charset"utf-8";
+
+/*헤더*/
+#wrap{}
+
+#header{
+    position: relative;
+    font-size: 14px;
+    padding-top: 20px;
+	height:60px;
+	line-height:60px;
+}
+#header h1{
+    padding-right: 130px;
+    float: left;
+}
+.hWrap{}
+
+
+.gnb{
+	display:inline-block;
+}
+.gnb>li{
+    padding-right: 100px;
+	float:left;
+	position:relative;
+}
+.gnb li a{
+	display:block;
+	padding:0 12px;
+	font-size:14px;
+	position:relative;
+}
+.gnb>li a::after{
+	content:"";
+	display:block;
+	overflow:hidden;
+	width:100%;
+	height:3px;
+	background: #8e8375;
+	position:absolute;
+	bottom:0px;
+	transform:scale(0,1);
+	transition:transform 0.3s;
+	left:0;
+	z-index:5;
+}
+.gnb li:hover .lnb a::after{
+	transform:scale(0,1);
+}
+.gnb li:hover a::after{
+	transform:scale(1,1);
+}
+
+.lnb{
+	background:#f2f2f2;
+	display:none;
+	position:fixed;
+	z-index:6;
+}
+.lnb li{
+    padding: 0 15px;
+	display:inline-block;
+}
+.lnb li:hover a{
+    font-weight: 600;
+    color: #8e8375;
+}
+.gnb li:hover .lnb{
+	display:block;
+}
+
+
+
+.util{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    height: 30px;
+    line-height: 30px;
+}
+.util li{
+    margin-left: 20px;
+    float: left
+}
+
+.util li a{}
+
+.login{}
+.login a{}
+
+.search{padding-top: 1px;}
+.search a{}
+.search img{}
+
+
+/*메인슬라이더*/
+#container{}
+.mainSlider{
+    text-align: center;
+    height: 800px;
+    background: url(../images/main/mainImg.png) no-repeat center center;
+}
+.mainSlider p{
+    font-family: "Batang";
+    padding-top: 380px;
+    font-size: 50px;
+    color: #fff;
+}
+.mainSlider p span{}
+
+
+
+/*푸터*/
+#footer{
+    padding: 60px 0;
+    position: relative;
+    background: #1a201d;
+    color: #c4c3c3;
+}
+#footer h1{
+    padding-top: 20px;
+    float: left;
+    margin-right: 90px;
+}
+#footer img{}
+
+.fWrap{position: relative;}
+.fSns{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.fSns li{
+    float: left;
+    margin-left: 15px;
+}
+.fSns li a{}
+.fSns li img{}
+
+.fInfo{
+    display: inline-block;
+    line-height: 20px;
+    font-size: 13px;
+}
+.fInfo a{color: #c4c3c3;}
+.fInfo span{font-weight: 900;}
+
+.fTop{}
+.fTop p{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.fBottom{padding-bottom: 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
