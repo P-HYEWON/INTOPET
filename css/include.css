@@ -1,0 +1,178 @@
+@charset"utf-8";
+
+/*헤더*/
+#wrap{
+}
+
+#header{
+	height:70px;
+    font-size: 14px;
+}
+#header h1{
+    padding: 10px 0;
+    float: left;
+}
+#header h1 img{display: inline-block;}
+.hWrap{}
+
+.gnb{
+    height: 71px;
+    text-align: center;
+}
+.gnb>li{
+    padding: 30px 60px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.gnb li a{
+    position: relative;
+}
+
+
+
+.gnb>li a::after{
+	content:"";
+	display:block;
+	overflow:hidden;
+	width:100%;
+	height:3px;
+    position: absolute;
+    top: 21px;
+	background: #8e8375;
+	transform:scale(0,1);
+	transition:transform 0.3s;
+	left:0;
+    z-index: 10;
+}
+
+.lnbWrap{}
+.lnb{
+    display: none;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #f3f3f3;
+}
+.lnb li{
+    padding: 0 30px;
+    display: inline-block;
+}
+.lnb li a{}
+
+/*호버*/
+.gnb li:hover .lnb{display: block;}
+.gnb li:hover .lnb a::after{transform:scale(0,1);}
+.gnb li:hover a::after{transform:scale(2,1);}
+.lnb li:hover a{
+    font-weight: 600;
+    color: #8e8375;
+}
+
+
+.utilWrap{
+    position: relative;
+}
+.util{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    height: 30px;
+    line-height: 30px;
+}
+.util li{
+    margin-left: 20px;
+    float: left
+}
+
+.util li a{}
+
+.login{}
+.login a{}
+
+.search{padding-top: 1px;}
+.search a{}
+.search img{}
+
+
+/*메인슬라이더*/
+#container{}
+.mainSlider{
+    text-align: center;
+    height: 800px;
+    background: url(../images/main/mainImg.png) no-repeat center center;
+}
+.mainSlider p{
+    font-family: "Batang";
+    padding-top: 380px;
+    font-size: 50px;
+    color: #fff;
+}
+.mainSlider p span{}
+
+
+
+/*푸터*/
+#footer{
+    padding: 60px 0;
+    position: relative;
+    background: #1a201d;
+    color: #c4c3c3;
+}
+#footer h1{
+    padding-top: 20px;
+    float: left;
+    margin-right: 90px;
+}
+#footer img{}
+
+.fWrap{position: relative;}
+.fSns{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.fSns li{
+    float: left;
+    margin-left: 15px;
+}
+.fSns li a{}
+.fSns li img{}
+
+.fInfo{
+    display: inline-block;
+    line-height: 20px;
+    font-size: 13px;
+}
+.fInfo a{color: #c4c3c3;}
+.fInfo span{font-weight: 900;}
+
+.fTop{}
+.fTop p{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.fBottom{padding-bottom: 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

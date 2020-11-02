@@ -1,0 +1,207 @@
+@charset "utf-8";
+/*웹뷰*/
+.panel,.mainCon06,.mainCon01M{display: none;}
+
+
+
+/*모바일뷰*/
+@media screen and (max-width:768px){
+    /*리셋*/
+    body{min-width: auto;}
+    .inner{width: auto;}
+
+    
+    /*안보임처리*/
+    .gnb,.util,.mainCon01,.ball01,.mainCon04,.mainCon05,.fBottom p{display: none;}
+
+    
+    /*보임처리*/
+    .panel,.mainCon06,.mainCon01M{display: block;}
+
+    
+    
+    /*헤더*/
+    .hWrap h1{display: inline-block;}
+    .hWrap h1 img{
+        text-align: center;
+        padding-top: 5px;
+        padding-left: 10px;
+        width: 90px;
+    }
+    .panel{
+        position: absolute;
+        top: 26px;
+        right: 15px;
+    }
+    .panel img{width: 30px;}
+    .panel a{display: block;}
+    
+    /*메인슬라이드*/
+    .mainSlider{
+        width: 100%;
+        height: 400px;
+        background-size:cover
+    }
+    .mainSlider p{
+        padding-top: 120px;
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .mainSlider p span{display: block;}
+    
+    
+    
+    /*메인컨텐츠01*/
+    .mainCon01M{
+        padding: 5% 0;
+    }
+    .con01Wrap{
+        text-align: center;
+        font-size: 15px;
+        padding: 0 10px;
+        padding-bottom: 5%;
+    }
+    .mainCon01M h2{
+        text-align: center;
+        padding: 5% 0;
+    }
+    .mainCon01M img{
+        float: left;
+        width: 50%;
+    }
+    .con01TxtBoxM{
+        text-align: center;
+        padding-top: 4%;
+        float: left;
+        width: 50%;
+    }
+    .con01TxtBoxM p span{font-weight: 700; display: block;}
+    .moreBtnM{
+        margin-top: 10px;
+        font-size: 12px;
+        display: inline-block;
+        width: 130px;
+        height: 25px;
+        line-height: 25px;
+        border: solid 1px #000;
+        border-radius: 25px;
+    }
+    .moreBtnM a{
+        display: inline-block;
+        width: 100%;
+    }
+    
+    
+    /*메인컨텐츠02*/
+    .mainCon02{padding: 40px 0;}
+    .con02Wrap h2{font-size: 25px;}
+    .con02List li{
+        padding: 0 10px;
+        margin: 0;
+        width: auto;
+    }
+    .con02List li img{ width: 40px;}
+    .con02List p{font-size: 14px;}
+    .con02Wrap>p{
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+    /*메인컨텐츠03*/
+    .mainCon03{
+        width: auto;
+        background-size: cover;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    .con03Txt h2{
+        padding-top: 40px;
+        line-height: 23px;
+        padding-bottom: 0;
+        font-size: 18px;
+    }
+    .con03Txt h2 span{display: block;}
+    .con03Txt p{font-size: 15px;}
+    .moreBtn02{
+        font-size: 12px;
+        text-align: center;
+        width: 140px;
+        height: 30px;
+        line-height: 30px;
+        margin-top: 25px;
+    }
+    .moreBtn02 a{
+        width: 100%;
+        display: block;
+    }
+    
+    /*메인컨텐츠06*/
+    .mainCon06{
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .mainCon06 h2{
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .con06List{
+        padding: 0 5px;
+        text-align: center;
+    }
+    .con06List01{
+        margin-right: 5px;
+        margin-left: 5px;
+        background: #f2f2f2;
+        width: calc( 50% - 10px);        
+        height: 150px;
+        float: left;
+    }
+    .con06List01 a{display: block; width: 100%; height: 100%;}
+    .con06List01 p{
+        font-family: "Score";
+        font-weight: 500;
+        padding-top: 50px;
+        padding-bottom: 5px;
+    }
+    .con06List01 a span{}
+    
+    .con06List02{
+        width: calc( 50% -10px); 
+        height: 150px;
+    }
+    
+    /*푸터*/
+    #footer{
+        padding-top: 20px;
+        padding-bottom: 40px;
+        text-align: center;
+        height: 100px;
+        width: 100%;
+    }
+    #footer h1{
+        padding-top: 0;
+        padding-bottom: 10px;
+        width: 100%;
+        margin: 0 auto;
+        margin-right: 0;
+    }
+    #footer h1 img{
+        width: 80px;
+    }
+    .fWrap{}
+    .fSns{
+        top: 90px;
+        left: 50%;
+        margin-left: -70px;
+    }
+    .fBottom{padding-bottom:0;}
+    .fSns li{}
+    .fSns li a{}
+    .fSns li img{}
+    .fInfo{font-size: 11px}
+    .fTop{line-height: 15px;}
+    .fTop p{margin-bottom: 0; font-size: 11px;}
+    .fTop a{}
+    .fBottom{}
+    .fBottom p{}
+    .fBottom span{}
+}
